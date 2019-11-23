@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ccTableView.xcodeproj">
+      location = "self:/Users/mac/Desktop/github/ccCollectionView/ccTableView/ccCollectionView.xcodeproj">
    </FileRef>
 </Workspace>

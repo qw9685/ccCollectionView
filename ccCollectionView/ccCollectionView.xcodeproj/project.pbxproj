@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047668C12388FB4100A55AFA /* ccCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047668BF2388FB4100A55AFA /* ccCollectionView.m */; };
+		047668C42388FB6800A55AFA /* firstCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047668C32388FB6800A55AFA /* firstCollectionViewCell.m */; };
+		047668C72388FB8D00A55AFA /* firstCollectionReusableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047668C62388FB8D00A55AFA /* firstCollectionReusableHeadView.m */; };
+		047668CA2388FBA200A55AFA /* firstCollectionReusableFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047668C92388FBA200A55AFA /* firstCollectionReusableFootView.m */; };
 		0483989F23151F1B008640D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483989E23151F1B008640D5 /* AppDelegate.m */; };
 		048398A223151F1B008640D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398A123151F1B008640D5 /* ViewController.m */; };
 		048398A723151F1C008640D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048398A623151F1C008640D5 /* Assets.xcassets */; };
 		048398AD23151F1C008640D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398AC23151F1C008640D5 /* main.m */; };
-		048398B723151F1C008640D5 /* ccTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398B623151F1C008640D5 /* ccTableViewTests.m */; };
-		048398C223151F1C008640D5 /* ccTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398C123151F1C008640D5 /* ccTableViewUITests.m */; };
-		048398D223151F37008640D5 /* ccTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398D023151F37008640D5 /* ccTableView.m */; };
+		048398B723151F1C008640D5 /* ccCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398B623151F1C008640D5 /* ccCollectionViewTests.m */; };
+		048398C223151F1C008640D5 /* ccCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398C123151F1C008640D5 /* ccCollectionViewUITests.m */; };
 		048398D423151F86008640D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048398D323151F86008640D5 /* Images.xcassets */; };
 		048398D72318CB18008640D5 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398D62318CB18008640D5 /* firstViewController.m */; };
-		048398DA2318CB93008640D5 /* firstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048398D92318CB93008640D5 /* firstTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,19 +27,27 @@
 			containerPortal = 0483989223151F1B008640D5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0483989923151F1B008640D5;
-			remoteInfo = ccTableView;
+			remoteInfo = ccCollectionView;
 		};
 		048398BE23151F1C008640D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0483989223151F1B008640D5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0483989923151F1B008640D5;
-			remoteInfo = ccTableView;
+			remoteInfo = ccCollectionView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0483989A23151F1B008640D5 /* ccTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047668BF2388FB4100A55AFA /* ccCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccCollectionView.m; sourceTree = "<group>"; };
+		047668C02388FB4100A55AFA /* ccCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccCollectionView.h; sourceTree = "<group>"; };
+		047668C22388FB6800A55AFA /* firstCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstCollectionViewCell.h; sourceTree = "<group>"; };
+		047668C32388FB6800A55AFA /* firstCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstCollectionViewCell.m; sourceTree = "<group>"; };
+		047668C52388FB8D00A55AFA /* firstCollectionReusableHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstCollectionReusableHeadView.h; sourceTree = "<group>"; };
+		047668C62388FB8D00A55AFA /* firstCollectionReusableHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstCollectionReusableHeadView.m; sourceTree = "<group>"; };
+		047668C82388FBA200A55AFA /* firstCollectionReusableFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstCollectionReusableFootView.h; sourceTree = "<group>"; };
+		047668C92388FBA200A55AFA /* firstCollectionReusableFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstCollectionReusableFootView.m; sourceTree = "<group>"; };
+		0483989A23151F1B008640D5 /* ccCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ccCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0483989D23151F1B008640D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0483989E23151F1B008640D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		048398A023151F1B008640D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,19 +55,15 @@
 		048398A623151F1C008640D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048398AB23151F1C008640D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048398AC23151F1C008640D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		048398B223151F1C008640D5 /* ccTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		048398B623151F1C008640D5 /* ccTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccTableViewTests.m; sourceTree = "<group>"; };
+		048398B223151F1C008640D5 /* ccCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048398B623151F1C008640D5 /* ccCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccCollectionViewTests.m; sourceTree = "<group>"; };
 		048398B823151F1C008640D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048398BD23151F1C008640D5 /* ccTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		048398C123151F1C008640D5 /* ccTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccTableViewUITests.m; sourceTree = "<group>"; };
+		048398BD23151F1C008640D5 /* ccCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048398C123151F1C008640D5 /* ccCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccCollectionViewUITests.m; sourceTree = "<group>"; };
 		048398C323151F1C008640D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048398D023151F37008640D5 /* ccTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccTableView.m; sourceTree = "<group>"; };
-		048398D123151F37008640D5 /* ccTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTableView.h; sourceTree = "<group>"; };
 		048398D323151F86008640D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		048398D52318CB18008640D5 /* firstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
 		048398D62318CB18008640D5 /* firstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
-		048398D82318CB93008640D5 /* firstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstTableViewCell.h; sourceTree = "<group>"; };
-		048398D92318CB93008640D5 /* firstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,9 @@
 		0483989123151F1B008640D5 = {
 			isa = PBXGroup;
 			children = (
-				0483989C23151F1B008640D5 /* ccTableView */,
-				048398B523151F1C008640D5 /* ccTableViewTests */,
-				048398C023151F1C008640D5 /* ccTableViewUITests */,
+				0483989C23151F1B008640D5 /* ccCollectionView */,
+				048398B523151F1C008640D5 /* ccCollectionViewTests */,
+				048398C023151F1C008640D5 /* ccCollectionViewUITests */,
 				0483989B23151F1B008640D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,66 +104,70 @@
 		0483989B23151F1B008640D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0483989A23151F1B008640D5 /* ccTableView.app */,
-				048398B223151F1C008640D5 /* ccTableViewTests.xctest */,
-				048398BD23151F1C008640D5 /* ccTableViewUITests.xctest */,
+				0483989A23151F1B008640D5 /* ccCollectionView.app */,
+				048398B223151F1C008640D5 /* ccCollectionViewTests.xctest */,
+				048398BD23151F1C008640D5 /* ccCollectionViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0483989C23151F1B008640D5 /* ccTableView */ = {
+		0483989C23151F1B008640D5 /* ccCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				048398CF23151F37008640D5 /* baseTableView */,
+				048398CF23151F37008640D5 /* baseCollectionView */,
 				0483989D23151F1B008640D5 /* AppDelegate.h */,
 				0483989E23151F1B008640D5 /* AppDelegate.m */,
 				048398A023151F1B008640D5 /* ViewController.h */,
 				048398A123151F1B008640D5 /* ViewController.m */,
 				048398D52318CB18008640D5 /* firstViewController.h */,
 				048398D62318CB18008640D5 /* firstViewController.m */,
-				048398D82318CB93008640D5 /* firstTableViewCell.h */,
-				048398D92318CB93008640D5 /* firstTableViewCell.m */,
+				047668C22388FB6800A55AFA /* firstCollectionViewCell.h */,
+				047668C32388FB6800A55AFA /* firstCollectionViewCell.m */,
+				047668C52388FB8D00A55AFA /* firstCollectionReusableHeadView.h */,
+				047668C62388FB8D00A55AFA /* firstCollectionReusableHeadView.m */,
+				047668C82388FBA200A55AFA /* firstCollectionReusableFootView.h */,
+				047668C92388FBA200A55AFA /* firstCollectionReusableFootView.m */,
 				048398A623151F1C008640D5 /* Assets.xcassets */,
 				048398AB23151F1C008640D5 /* Info.plist */,
 				048398AC23151F1C008640D5 /* main.m */,
 				048398D323151F86008640D5 /* Images.xcassets */,
 			);
-			path = ccTableView;
+			path = ccCollectionView;
 			sourceTree = "<group>";
 		};
-		048398B523151F1C008640D5 /* ccTableViewTests */ = {
+		048398B523151F1C008640D5 /* ccCollectionViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				048398B623151F1C008640D5 /* ccTableViewTests.m */,
+				048398B623151F1C008640D5 /* ccCollectionViewTests.m */,
 				048398B823151F1C008640D5 /* Info.plist */,
 			);
-			path = ccTableViewTests;
+			path = ccCollectionViewTests;
 			sourceTree = "<group>";
 		};
-		048398C023151F1C008640D5 /* ccTableViewUITests */ = {
+		048398C023151F1C008640D5 /* ccCollectionViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				048398C123151F1C008640D5 /* ccTableViewUITests.m */,
+				048398C123151F1C008640D5 /* ccCollectionViewUITests.m */,
 				048398C323151F1C008640D5 /* Info.plist */,
 			);
-			path = ccTableViewUITests;
+			path = ccCollectionViewUITests;
 			sourceTree = "<group>";
 		};
-		048398CF23151F37008640D5 /* baseTableView */ = {
+		048398CF23151F37008640D5 /* baseCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				048398D123151F37008640D5 /* ccTableView.h */,
-				048398D023151F37008640D5 /* ccTableView.m */,
+				047668C02388FB4100A55AFA /* ccCollectionView.h */,
+				047668BF2388FB4100A55AFA /* ccCollectionView.m */,
 			);
-			path = baseTableView;
+			path = baseCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0483989923151F1B008640D5 /* ccTableView */ = {
+		0483989923151F1B008640D5 /* ccCollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048398C623151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableView" */;
+			buildConfigurationList = 048398C623151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionView" */;
 			buildPhases = (
 				0483989623151F1B008640D5 /* Sources */,
 				0483989723151F1B008640D5 /* Frameworks */,
@@ -167,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = ccTableView;
-			productName = ccTableView;
-			productReference = 0483989A23151F1B008640D5 /* ccTableView.app */;
+			name = ccCollectionView;
+			productName = ccCollectionView;
+			productReference = 0483989A23151F1B008640D5 /* ccCollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		048398B123151F1C008640D5 /* ccTableViewTests */ = {
+		048398B123151F1C008640D5 /* ccCollectionViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048398C923151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableViewTests" */;
+			buildConfigurationList = 048398C923151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionViewTests" */;
 			buildPhases = (
 				048398AE23151F1C008640D5 /* Sources */,
 				048398AF23151F1C008640D5 /* Frameworks */,
@@ -185,14 +195,14 @@
 			dependencies = (
 				048398B423151F1C008640D5 /* PBXTargetDependency */,
 			);
-			name = ccTableViewTests;
-			productName = ccTableViewTests;
-			productReference = 048398B223151F1C008640D5 /* ccTableViewTests.xctest */;
+			name = ccCollectionViewTests;
+			productName = ccCollectionViewTests;
+			productReference = 048398B223151F1C008640D5 /* ccCollectionViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		048398BC23151F1C008640D5 /* ccTableViewUITests */ = {
+		048398BC23151F1C008640D5 /* ccCollectionViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048398CC23151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableViewUITests" */;
+			buildConfigurationList = 048398CC23151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionViewUITests" */;
 			buildPhases = (
 				048398B923151F1C008640D5 /* Sources */,
 				048398BA23151F1C008640D5 /* Frameworks */,
@@ -203,9 +213,9 @@
 			dependencies = (
 				048398BF23151F1C008640D5 /* PBXTargetDependency */,
 			);
-			name = ccTableViewUITests;
-			productName = ccTableViewUITests;
-			productReference = 048398BD23151F1C008640D5 /* ccTableViewUITests.xctest */;
+			name = ccCollectionViewUITests;
+			productName = ccCollectionViewUITests;
+			productReference = 048398BD23151F1C008640D5 /* ccCollectionViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0483989523151F1B008640D5 /* Build configuration list for PBXProject "ccTableView" */;
+			buildConfigurationList = 0483989523151F1B008640D5 /* Build configuration list for PBXProject "ccCollectionView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,9 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0483989923151F1B008640D5 /* ccTableView */,
-				048398B123151F1C008640D5 /* ccTableViewTests */,
-				048398BC23151F1C008640D5 /* ccTableViewUITests */,
+				0483989923151F1B008640D5 /* ccCollectionView */,
+				048398B123151F1C008640D5 /* ccCollectionViewTests */,
+				048398BC23151F1C008640D5 /* ccCollectionViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,11 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				048398D72318CB18008640D5 /* firstViewController.m in Sources */,
+				047668C42388FB6800A55AFA /* firstCollectionViewCell.m in Sources */,
+				047668C12388FB4100A55AFA /* ccCollectionView.m in Sources */,
 				048398A223151F1B008640D5 /* ViewController.m in Sources */,
-				048398DA2318CB93008640D5 /* firstTableViewCell.m in Sources */,
-				048398D223151F37008640D5 /* ccTableView.m in Sources */,
 				048398AD23151F1C008640D5 /* main.m in Sources */,
+				047668CA2388FBA200A55AFA /* firstCollectionReusableFootView.m in Sources */,
 				0483989F23151F1B008640D5 /* AppDelegate.m in Sources */,
+				047668C72388FB8D00A55AFA /* firstCollectionReusableHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048398B723151F1C008640D5 /* ccTableViewTests.m in Sources */,
+				048398B723151F1C008640D5 /* ccCollectionViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048398C223151F1C008640D5 /* ccTableViewUITests.m in Sources */,
+				048398C223151F1C008640D5 /* ccCollectionViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		048398B423151F1C008640D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0483989923151F1B008640D5 /* ccTableView */;
+			target = 0483989923151F1B008640D5 /* ccCollectionView */;
 			targetProxy = 048398B323151F1C008640D5 /* PBXContainerItemProxy */;
 		};
 		048398BF23151F1C008640D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0483989923151F1B008640D5 /* ccTableView */;
+			target = 0483989923151F1B008640D5 /* ccCollectionView */;
 			targetProxy = 048398BE23151F1C008640D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,12 +453,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN3L9MS2DL;
-				INFOPLIST_FILE = ccTableView/Info.plist;
+				INFOPLIST_FILE = ccCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,12 +471,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN3L9MS2DL;
-				INFOPLIST_FILE = ccTableView/Info.plist;
+				INFOPLIST_FILE = ccCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,16 +487,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ccTableViewTests/Info.plist;
+				INFOPLIST_FILE = ccCollectionViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccTableView.app/ccTableView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccCollectionView.app/ccCollectionView";
 			};
 			name = Debug;
 		};
@@ -493,16 +505,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ccTableViewTests/Info.plist;
+				INFOPLIST_FILE = ccCollectionViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccTableView.app/ccTableView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ccCollectionView.app/ccCollectionView";
 			};
 			name = Release;
 		};
@@ -510,16 +522,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ccTableViewUITests/Info.plist;
+				INFOPLIST_FILE = ccCollectionViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ccTableView;
+				TEST_TARGET_NAME = ccCollectionView;
 			};
 			name = Debug;
 		};
@@ -527,23 +539,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ccTableViewUITests/Info.plist;
+				INFOPLIST_FILE = ccCollectionViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccTableViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.ccCollectionViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ccTableView;
+				TEST_TARGET_NAME = ccCollectionView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0483989523151F1B008640D5 /* Build configuration list for PBXProject "ccTableView" */ = {
+		0483989523151F1B008640D5 /* Build configuration list for PBXProject "ccCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048398C423151F1C008640D5 /* Debug */,
@@ -552,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048398C623151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableView" */ = {
+		048398C623151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048398C723151F1C008640D5 /* Debug */,
@@ -561,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048398C923151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableViewTests" */ = {
+		048398C923151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048398CA23151F1C008640D5 /* Debug */,
@@ -570,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048398CC23151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccTableViewUITests" */ = {
+		048398CC23151F1C008640D5 /* Build configuration list for PBXNativeTarget "ccCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048398CD23151F1C008640D5 /* Debug */,

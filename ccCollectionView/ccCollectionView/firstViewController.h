@@ -1,6 +1,6 @@
 //
 //  firstViewController.h
-//  ccTableView
+//  ccCollectionView
 //
 //  Created by mac on 2019/8/30.
 //  Copyright © 2019 cc. All rights reserved.
