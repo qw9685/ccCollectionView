@@ -31,6 +31,8 @@
 -(ccCollectionView *)collectionView{
         if (_collectionView == nil) {
             _collectionView = [[ccCollectionView alloc] initCollectionViewWithItemClass:[firstCollectionViewCell class] headClass:[firstCollectionReusableHeadView class] footClass:[firstCollectionReusableFootView class]];
+            _collectionView.frame = self.view.bounds;
+
             _collectionView.layout.headerReferenceSize = CGSizeMake(500, 66);
             _collectionView.layout.footerReferenceSize = CGSizeMake(500, 10);
             

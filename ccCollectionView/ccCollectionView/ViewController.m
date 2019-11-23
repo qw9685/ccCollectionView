@@ -29,6 +29,7 @@
 -(ccCollectionView *)collectionView{
         if (_collectionView == nil) {
             _collectionView = [[ccCollectionView alloc] initCollectionViewWithItemClass:[UICollectionViewCell class] headClass:nil footClass:nil];
+            _collectionView.frame = self.view.bounds;
             _collectionView.layout.sectionInset = UIEdgeInsetsMake(15, 15, 30, 15);
             _collectionView.layout.itemSize = CGSizeMake(100, 100);
             _collectionView.layout.minimumInteritemSpacing = 15;
